@@ -1,0 +1,45 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.softserveinc:edu:war:1.0.0-BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 268, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 366, column 9
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-war-plugin is missing. @ line 276, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< com.softserveinc:edu >------------------------
+[INFO] Building OMS 1.0.0-BUILD-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] >>> tomcat7-maven-plugin:2.2:redeploy (default-cli) > package @ edu >>>
+[INFO] Downloading from org.springframework.maven.release: http://repo.springsource.org/libs-release/org/springframework/roo/org.springframework.roo.annotations/1.0.2.RELEASE/org.springframework.roo.annotations-1.0.2.RELEASE.pom
+[INFO] Downloading from org.springframework.maven.milestone: http://repo.springsource.org/libs-milestone/org/springframework/roo/org.springframework.roo.annotations/1.0.2.RELEASE/org.springframework.roo.annotations-1.0.2.RELEASE.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/roo/org.springframework.roo.annotations/1.0.2.RELEASE/org.springframework.roo.annotations-1.0.2.RELEASE.pom
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.annotations:jar:1.0.2.RELEASE is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ edu ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ edu ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ edu ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ edu ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ edu ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- emma4it-maven-plugin:1.3:report (report) @ edu ---
+EMMA: processing input files ...
+EMMA: 0 file(s) read and merged in 0 ms
+EMMA: nothing to do: no metadata found in any of the data files
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ edu ---

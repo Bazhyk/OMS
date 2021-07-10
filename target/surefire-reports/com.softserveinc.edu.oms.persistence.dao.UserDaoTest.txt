@@ -1,0 +1,319 @@
+-------------------------------------------------------------------------------
+Test set: com.softserveinc.edu.oms.persistence.dao.UserDaoTest
+-------------------------------------------------------------------------------
+Tests run: 35, Failures: 0, Errors: 35, Skipped: 0, Time elapsed: 2.889 sec <<< FAILURE! - in com.softserveinc.edu.oms.persistence.dao.UserDaoTest
+testFindById(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.085 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testGetRowCount(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.083 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindAllFromEmptyDb(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.099 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindAllFromEmptyDbVol2(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.094 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testInsertIntoEmptyDbAndFindAllAfterThat(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.095 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindAllFromWithPaging(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.087 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testUpdateUser(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.086 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testDeleteUser(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.082 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByRoleNameEqualName(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.08 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByRoleNameNotEqualName(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.079 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByRoleNameStartsWith(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.084 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByRoleNameDoesNotContain(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.08 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByRoleNameContains(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.084 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByLoginEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.082 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByLoginNotEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.08 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByLoginStartsWith(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.08 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByLoginContains(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.081 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByLoginDoesNotContain(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.093 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByFirstNameEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.081 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByFirstNameNotEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.076 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByFirstNameStartsWith(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.075 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByFirstNameContains(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.082 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByFirstNameDoesNotContain(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.082 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByLastNameEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.077 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByLastNameNotEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.08 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByLastNameStartsWith(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.087 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByLastNameContains(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.079 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByLastNameDoesNotContain(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.078 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByAllEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.084 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByAllNotEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.077 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByAllStartsWith(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.08 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByAllContains(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.075 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testFindByAllDoesNotContain(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.076 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testCountUserBySearchValue(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.077 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+testContextFile(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.076 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager' defined in class path resource [testApplicationContex.xml]: Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [testApplicationContex.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: org.hibernate.HibernateException: Unable to get the default Bean Validation factory
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
